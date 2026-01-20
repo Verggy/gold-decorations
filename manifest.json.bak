@@ -1,0 +1,20 @@
+{
+  "Group": "Verggy's",
+  "Name": "Gold Decorations",
+  "Version": "0.1.0",
+  "Description": "Build out of gold!",
+  "Authors": [
+    {
+      "Name": "Verggy",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

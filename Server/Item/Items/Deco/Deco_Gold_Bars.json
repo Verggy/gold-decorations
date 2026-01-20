@@ -1,0 +1,75 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Deco_Gold_Bars.name"
+  },
+  "Icon": "Icons/Items/Deco_Gold_Bars.png",
+  "Categories": [
+    "Blocks.Deco"
+  ],
+  "Set": "Deco_Gold",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Gold",
+        "Quantity": 1
+      }
+    ],
+    "OutputQuantity": 2,
+    "BenchRequirement": [
+      {
+        "Type": "StructuralCrafting",
+        "Id": "Builders",
+        "Categories": [
+          "Wall"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Tinkering/Iron_Bars.blockymodel",
+    "HitboxType": "Fence_Thin",
+    "VariantRotation": "Wall",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "WallConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "Deco_Gold_Bars",
+        "Corner": "Deco_Gold_Bars_Corner"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "ParticleColor": "#302f2f",
+    "BlockSoundSetId": "Metal",
+    "Textures": [
+      {
+        "All": "Resources/Textures/Deco_Gold_Bars.png"
+      }
+    ],
+    "TextureSideMask": "Resources/Textures/Deco_Gold_Bars.png",
+    "CustomModelTexture": [
+      {
+        "Texture": "Resources/Textures/Deco_Gold_Bars.png",
+        "Weight": 0
+      }
+    ]
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Deco"
+    ],
+    "Family": [
+      "Iron"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal"
+}
