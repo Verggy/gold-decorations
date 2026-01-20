@@ -1,7 +1,6 @@
-**Golden Decorations Mod**
-
 <img width="400" height="400" alt="modicon" src="https://github.com/user-attachments/assets/19f95b69-8630-4358-8c15-4032ee246843" />
 
+**Golden Decorations Mod**
 
 Adds craftable gold decorations to Hytale. All items are made at the **Builder's Workbench** and are perfect for luxury-themed builds.
 
